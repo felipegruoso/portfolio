@@ -5,30 +5,6 @@ body {
   color: #64686d;
 }
 
-.btn-send-message {
-  color: white;
-  background-color: #45aed6;
-  border-color: #d7d7d7;
-}
-
-.btn-send-message:hover {
-  color: #45aed6;
-  background-color: white;
-  border-color: #45aed6;
-}
-
-.btn-send-message:active {
-  color: white;
-  background-color: #45aed6 !important;
-  border-color: #d7d7d7 !important;
-}
-
-.btn-send-message:focus {
-  color: white;
-  background-color: #45aed6 !important;
-  border-color: #d7d7d7 !important;
-}
-
 .fake-bg {
   height: 200px;
 }
@@ -360,10 +336,6 @@ a:hover .github-icon,
 
 #contact {
   padding: 100px 0;
-}
-
-#contact textarea {
-  resize: none;
 }
 
 #about {

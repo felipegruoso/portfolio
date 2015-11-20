@@ -67,21 +67,6 @@ jQuery(function($) {'use strict';
     });
   });
 
-  // Contact form
-  var form = $('#main-contact-form');
-  form.submit(function(event){
-    event.preventDefault();
-    var form_status = $('<div class="form_status"></div>');
-    $.ajax({
-      url: $(this).attr('action'),
-      beforeSend: function(){
-        form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Email is sending...</p>').fadeIn() );
-      }
-    }).done(function(data){
-      form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
-    });
-  });
-
   //Pretty Photo
   $("a[rel^='prettyPhoto']").prettyPhoto({
     social_tools: false
@@ -93,3 +78,12 @@ $('#top').on('click', function() {
   $('html body').animate({ scrollTop: 0 }, 1000);
   return false;
 });
+
+
+function sendMail()
+{
+  var link = "mailto:felipe.gruoso@gmail.com"+
+             "?&subject=" + escape("This is subject")+
+             "&body=" + escape("This is body");
+  window.location.href = link;
+}
