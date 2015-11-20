@@ -438,3 +438,16 @@ a:hover .github-icon,
 .center-icon {
   float: none !important;
 }
+
+.justified-text {
+  text-align: justify;
+}
+
+
+.img-about-start {
+  margin: 10px;
+}
+
+.img-about-end {
+  margin: 50px;
+}
