@@ -274,11 +274,14 @@ a:hover .github-icon,
 }
 
 #portfolio .portfolio-items {
-  margin: -15px;
+  margin: auto;
+}
+
+#portfolio .portfolio-item .portfolio-item-inner {
+  position: relative;
 }
 
 #portfolio .portfolio-item {
-  width: 24.9%;
   float: left;
   padding: 15px;
   -webkit-box-sizing: border-box;
@@ -286,52 +289,44 @@ a:hover .github-icon,
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  left: 0;
+  right: 0;
 }
 
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
+  overflow: hidden;
+  height: 150px !important;
 }
 
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
-  opacity: 0;
-  transition: opacity 400ms;
-  -webkit-transition: opacity 400ms;
-  position: absolute;
+#portfolio .portfolio-item .portfolio-item-inner img {
+  height: 150px !important;
+  width: 225px !important;
+  min-height: 150px !important;
+  min-width: 225px !important;
+  margin: auto
+}
+
+.portfolio-info {
+  width: 225px;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
 }
 
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info h3 {
+.portfolio-title h3 {
   font-size: 16px;
   line-height: 1;
   margin: 0;
   color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-item-inner .portfolio-info .preview {
-  position: absolute;
-  top: -18px;
-  right: 12px;
-  border-radius: 50%;
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  text-align: center;
-  color: #fff;
-  box-shadow: 0 0 0 2px #fff;
-  -webkit-box-shadow: 0 0 0 2px #fff;
-}
-
-#portfolio .portfolio-item:hover .portfolio-info {
-  opacity: 1;
-  padding: 100px 0;
 }
 
 #contact {
@@ -370,7 +365,6 @@ a:hover .github-icon,
   padding-top: 40px;
   line-height: 1;
   text-align: justify;
-  /*text-transform: uppercase;*/
 }
 
 #quote > div > div {

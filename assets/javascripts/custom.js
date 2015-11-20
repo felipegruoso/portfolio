@@ -67,11 +67,6 @@ jQuery(function($) {'use strict';
     });
   });
 
-  //Pretty Photo
-  $("a[rel^='prettyPhoto']").prettyPhoto({
-    social_tools: false
-  });
-
 });
 
 $('#top').on('click', function() {
@@ -79,11 +74,20 @@ $('#top').on('click', function() {
   return false;
 });
 
+$(".portfolio-item-inner").hover(function (e) {
+  e.stopPropagation();
+  var info = $(this).find('.portfolio-info');
+  info.stop().animate({
+    "margin-top" : '-' + info.outerHeight() + 'px'
+  }, 250);
 
-function sendMail()
-{
-  var link = "mailto:felipe.gruoso@gmail.com"+
-             "?&subject=" + escape("This is subject")+
-             "&body=" + escape("This is body");
-  window.location.href = link;
-}
+  return false;
+}, function (e){
+    e.stopPropagation();
+    var info = $(this).find('.portfolio-info');
+    info.stop().animate({
+      "margin-top": '-50px'
+    }, 250);
+
+    return false;
+});
