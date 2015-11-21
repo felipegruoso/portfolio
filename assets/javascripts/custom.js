@@ -86,7 +86,7 @@ $(".portfolio-item-inner").hover(function (e) {
     e.stopPropagation();
     var info = $(this).find('.portfolio-info');
     info.stop().animate({
-      "margin-top": '-50px'
+      "margin-top": '-30px'
     }, 250);
 
     return false;
