@@ -425,3 +425,6 @@ a:hover .github-icon,
   }
 }
 
+.hidden {
+  display: none;
+}

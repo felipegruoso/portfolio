@@ -84,3 +84,13 @@ $(".portfolio-item-inner").hover(function (e) {
 
     return false;
 });
+
+$(".portfolio-item-inner").click(function() {
+  $('#portfolio-modal').modal('toggle');
+
+  var title = $(this).find('h3').html();
+  var content = $(this).find('#description').html();
+
+  $('#modal-title').html(title);
+  $('#modal-content').html(content);
+});
