@@ -297,6 +297,8 @@ a:hover .github-icon,
   position: relative;
   overflow: hidden;
   height: 150px !important;
+  width: 225px;
+  margin: auto;
 }
 
 #portfolio .portfolio-item .portfolio-item-inner img {
@@ -319,7 +321,7 @@ a:hover .github-icon,
   text-align: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -30px;
+  margin-top: -28px;
 }
 
 .portfolio-title h3 {
@@ -416,3 +418,10 @@ a:hover .github-icon,
 .img-about-end {
   margin: 50px;
 }
+
+@media (max-width: 556px) {
+  .col-xs-6 {
+    width: 100% !important;
+  }
+}
+

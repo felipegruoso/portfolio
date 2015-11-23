@@ -30,20 +30,6 @@ jQuery(function($) {'use strict';
     })
   };
 
-  $('#tohash').on('click', function(){
-    $('html, body').animate({scrollTop: $(this.hash).offset().top - 5}, 1000);
-    return false;
-  });
-
-  // accordian
-  $('.accordion-toggle').on('click', function(){
-    $(this).closest('.panel-group').children().each(function(){
-    $(this).find('>.panel-heading').removeClass('active');
-     });
-
-    $(this).closest('.panel-heading').toggleClass('active');
-  });
-
   //Initiat WOW JS
   new WOW().init();
   //smoothScroll
@@ -61,8 +47,15 @@ jQuery(function($) {'use strict';
     $portfolio_selectors.on('click', function(){
       $portfolio_selectors.removeClass('active');
       $(this).addClass('active');
+
       var selector = $(this).attr('data-filter');
       $portfolio.isotope({ filter: selector });
+      $('.portfolio-info').removeClass('wow');
+      $('.portfolio-info').removeClass('slideInUp');
+      $('.portfolio-info').removeClass('animated');
+      $('.portfolio-info').each(function() {
+        $(this).attr('style', null);
+      });
       return false;
     });
   });
@@ -86,7 +79,7 @@ $(".portfolio-item-inner").hover(function (e) {
     e.stopPropagation();
     var info = $(this).find('.portfolio-info');
     info.stop().animate({
-      "margin-top": '-30px'
+      "margin-top": '-28px'
     }, 250);
 
     return false;
