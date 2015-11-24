@@ -102,7 +102,7 @@ body {
 }
 
 #home {
-  background: #242a33 url(/images/welcome.jpeg) no-repeat 10%;
+  background: #242a33 url(/assets/images/welcome.jpeg) no-repeat 10%;
   background-size: cover;
   color: #fff;
   padding: 100px 0;
