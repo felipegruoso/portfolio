@@ -296,17 +296,19 @@ a:hover .github-icon,
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
   overflow: hidden;
-  height: 150px !important;
+  height: 109px !important;
   width: 225px;
   margin: auto;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,0.35);
 }
 
 #portfolio .portfolio-item .portfolio-item-inner img {
-  height: 150px !important;
+  height: 109px !important;
   width: 225px !important;
-  min-height: 150px !important;
+  min-height: 109px !important;
   min-width: 225px !important;
-  margin: auto
+  margin: auto;
+  border: 1px solid #ddd;
 }
 
 .portfolio-info {
@@ -427,4 +429,8 @@ a:hover .github-icon,
 
 .hidden {
   display: none;
+}
+
+.portfolio-buttons {
+  padding-top: 20px;
 }
