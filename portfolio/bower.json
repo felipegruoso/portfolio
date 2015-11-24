@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/felipegruoso/portfolio",
+  "authors": [
+    "Felipe <felipe.gruoso@gmail.com>"
+  ],
+  "description": "My Portfolio",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "portfolio"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootstrap-material-design": "~0.3.0",
+    "animate.css": "~3.4.0",
+    "wow": "wowjs#~1.1.2",
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#~7.1.1",
+    "isotope": "~2.2.2",
+    "font-awesome": "~4.4.0"
+  }
+}
