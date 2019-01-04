@@ -1,0 +1,70 @@
+body {
+  font-family: "Raleway";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: #242a33 url("welcome2.3a9a2b9b.jpg") no-repeat 10%;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+}
+#home h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 4;
+}
+#home p {
+  font-size: 30px;
+}
+
+nav {
+  border-bottom: 2px solid #7b8d8d;
+}
+
+.bg-black {
+  background-color: #1b1b1b !important;
+}
+
+.text-green {
+  color: lime;
+}
+
+.text-orange {
+  color: #e4ff00;
+}
+
+.text-gray {
+  color: #ddd;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+}
+.link-no-decoration:hover {
+  text-decoration: none;
+}
+.link-no-decoration:hover.text-green {
+  color: lime;
+}
+.link-no-decoration:hover.text-orange {
+  color: #e4ff00;
+}
+.link-no-decoration:hover.text-gray {
+  color: #ddd;
+}
+.link-no-decoration:visited {
+  text-decoration: none;
+}
+.link-no-decoration:visited.text-green {
+  color: lime;
+}
+.link-no-decoration:visited.text-orange {
+  color: #e4ff00;
+}
+.link-no-decoration:visited.text-gray {
+  color: #ddd;
+}

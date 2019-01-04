@@ -1,0 +1,84 @@
+$gray: #ddd;
+$yellow: #e4ff00;
+
+body {
+  font-family: 'Raleway'
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: #242a33 url('../images/welcome2.jpg') no-repeat 10%;
+  background-size: cover;
+  color: #fff;
+  padding: 100px 0;
+
+  h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 4;
+  }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+nav {
+  border-bottom: 2px solid #7b8d8d;
+}
+
+.bg-black {
+  background-color: #1b1b1b!important;
+}
+
+.text-green {
+  color: lime;
+}
+
+.text-orange {
+  color: $yellow;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.link-no-decoration {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+
+    &.text-green {
+      color: lime;
+    }
+
+    &.text-orange {
+      color: $yellow;
+    }
+
+    &.text-gray {
+      color: $gray;
+    }
+  }
+
+  &:visited {
+    text-decoration: none;
+
+    &.text-green {
+      color: lime;
+    }
+
+    &.text-orange {
+      color: $yellow;
+    }
+
+    &.text-gray {
+      color: $gray;
+    }
+  }
+
+}
