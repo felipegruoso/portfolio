@@ -5,13 +5,17 @@
     "parcel-bundler": "^1.11.0"
   },
   "scripts": {
-    "build": "parcel build src/index.html --out-dir public",
-    "start": "parcel src/index.html"
+    "build": "rm -rf ../builds/portfolio && parcel build src/index.html --out-dir ../builds/portfolio/public",
+    "start": "parcel src/index.html",
+    "deploy": "cp static.json ../builds/portfolio && cd ../builds/portfolio && git init && git remote add heroku https://git.heroku.com/felipegruoso.git && git add . && git commit -m \"Deploy\" && git push heroku master --force"
   },
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/felipegruoso/portfolio.git",
   "author": "Felipe Gadelha Ruoso <felipegruoso@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.17.2"
+  }
 }

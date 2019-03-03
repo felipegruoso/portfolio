@@ -1,0 +1,36 @@
+$mobile-break-point: 576px;
+
+.personality-col {
+  height: 430px;
+
+  @media (max-width: $mobile-break-point) {
+    height: 300px;
+  }
+}
+
+.personality-image-container1 {
+  transform: rotate(14deg);
+  z-index: 4;
+}
+
+.personality-image-container2 {
+  transform: rotate(-40deg);
+  top: -210px;
+  left: -20px;
+  z-index: 3;
+
+  @media (max-width: $mobile-break-point) {
+    top: -160px;
+  }
+}
+
+.personality-image-container3 {
+  transform: rotate(2deg);
+  top: -430px;
+  left: -35px;
+  z-index: 2;
+
+  @media (max-width: $mobile-break-point) {
+    top: -330px;
+  }
+}
