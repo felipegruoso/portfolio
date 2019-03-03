@@ -5,9 +5,8 @@
     "parcel-bundler": "^1.11.0"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "rm -rf ../builds/portfolio && parcel build index.html --out-dir ../builds/portfolio",
-    "deploy": "cd ../builds/portfolio && git init && git remote add heroku https://git.heroku.com/felipegruoso.git && git add . && git commit -m \"Deploy\" && git push heroku master --force"
+    "build": "parcel build src/index.html --out-dir public",
+    "start": "parcel src/index.html"
   },
   "name": "portfolio",
   "version": "1.0.0",
