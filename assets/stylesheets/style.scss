@@ -80,6 +80,10 @@ h2 {
 
 .mt-lg {
   margin-top: 90px;
+
+  @media (orientation: landscape) {
+    margin-top: 60px;
+  }
 }
 
 .skill-panel {
@@ -121,6 +125,10 @@ h2 {
   @media (max-width: $mobile-break-point) {
     right: 30px;
   }
+
+  @media (orientation: landscape) {
+    right: 30px;
+  }
 }
 .arrow span{
     display: block;
@@ -133,6 +141,12 @@ h2 {
     animation: animate 2s infinite;
 
     @media (max-width: $mobile-break-point) {
+      width: 15px;
+      height: 15px;
+      margin: -5px;
+    }
+
+    @media (orientation: landscape) {
       width: 15px;
       height: 15px;
       margin: -5px;

@@ -21,6 +21,10 @@ $mobile-break-point: 576px;
     @media (max-width: $mobile-break-point) {
       font-size: 18vw;
     }
+
+    @media (orientation: landscape) {
+      font-size: 13vw;
+    }
   }
 
   .welcome {
@@ -34,6 +38,10 @@ $mobile-break-point: 576px;
       margin-left: 30px;
       margin-right: 30px;
     }
+
+    @media (orientation: landscape) {
+      margin-top: 0px;
+    }
   }
 
   .greetings {
@@ -44,6 +52,11 @@ $mobile-break-point: 576px;
 
     @media (max-width: $mobile-break-point) {
       font-size: 8vw;
+    }
+
+    @media (orientation: landscape) {
+      font-size: 5vw;
+      margin-bottom: 20px;
     }
   }
 
@@ -72,6 +85,10 @@ $mobile-break-point: 576px;
       float: none;
       text-align: left;
       margin-top: 30vh;
+    }
+
+    @media (orientation: landscape) {
+      margin-top: -15px;
     }
   }
 }
