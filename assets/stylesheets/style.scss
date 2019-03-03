@@ -32,6 +32,7 @@ body {
 
 .default-section {
   padding: 60px 100px;
+  overflow: hidden;
 
   @media (max-width: 772px) {
     padding: 60px 30px;
@@ -40,6 +41,10 @@ body {
   p {
     font-size: 20px;
     margin-bottom: 40px;
+
+    @media (max-width: $mobile-break-point) {
+      font-size: 16px;
+    }
 
     &.plume {
       font-size: 30px;

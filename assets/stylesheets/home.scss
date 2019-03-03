@@ -6,8 +6,12 @@ $mobile-break-point: 576px;
   background-size: cover;
   filter: contrast(50%);
 
-  @media (max-width: 767px) {
-    background-position: -220px 0px;
+  @media (max-width: $mobile-break-point) {
+    background-position: 0;
+  }
+
+  @media (max-width: 370px) {
+    background-position: -90px 0px;
   }
 
   .name {
