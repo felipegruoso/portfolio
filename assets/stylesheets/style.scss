@@ -21,15 +21,6 @@ body {
   background-color: #f2eae4;
 }
 
-.code-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-image: url('../images/notebook.jpg');
-  filter: contrast(80%);
-}
-
 .default-section {
   padding: 60px 100px;
   overflow: hidden;
@@ -80,30 +71,6 @@ h2 {
 
 .mt-lg {
   margin-top: 90px;
-}
-
-.skill-panel {
-  max-width: 200px;
-  max-height: 200px;
-  margin: auto;
-  margin-bottom: 40px;
-  box-shadow: 5px 5px 20px #91897b;
-}
-
-.skill-panel > div > img {
-  max-width: 120px;
-  max-height: 120px;
-  margin: auto;
-}
-
-.skill-col {
-  padding-bottom: 15px;
-}
-
-.skill-footer {
-  background-color: white;
-  border: 0;
-  text-align: center;
 }
 
 /*ARROW*/
