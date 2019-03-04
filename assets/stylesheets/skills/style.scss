@@ -1,34 +1,45 @@
-.skill-container {
-  align-items: stretch;
+.skills-section {
+  .skill-container {
+    align-items: stretch;
 
-  .skill-col {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    margin-bottom: 50px;
-
-    .skill-img {
-      max-height: 120px;
+    .skill-col {
       display: flex;
-      margin-bottom: 10px;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      margin-bottom: 50px;
 
-      img {
-        max-width: 120px;
+      .skill-img {
         max-height: 120px;
-        margin: auto;
-      }
-    }
+        display: flex;
+        margin-bottom: 10px;
 
-    .skill-badge {
-      background-color: #9038358c;
-      color: #f2eae4;
-    }
-    &:hover {
+        img {
+          max-width: 120px;
+          max-height: 120px;
+          margin: auto;
+          filter: contrast(60%);
+          transition: filter 300ms linear;
+        }
+      }
+
       .skill-badge {
-        background-color: #903835;
+        background-color: #9038358c;
+        color: #f2eae4;
+        transition: background-color 300ms linear;
+      }
+      &:hover {
+        .skill-badge {
+          background-color: #903835;
+        }
+
+        .skill-img {
+          img {
+            filter: contrast(100%);
+          }
+        }
       }
     }
   }
