@@ -10,7 +10,7 @@
     text-align: center;
     width: 130px;
     border-radius: 100%;
-    color: #fff;
+    color: $secondary-color;
     box-shadow: inset 0 0 0 1px #903835;
     -webkit-box-shadow: inset 0 0 0 1px #903835;
     transition: background-color 400ms, background-color 400ms;
@@ -19,10 +19,10 @@
 
   .normal-icon {
     background-color: #9038358c !important;
-    color: #fff !important;
+    color: $secondary-color !important;
     box-shadow: inset 0 0 0 1px #9038358c !important;
     -webkit-box-shadow: inset 0 0 0 1px #9038358c !important;
-    -webkit-box-shadow: inset 0 0 0 5px #fff !important;
+    -webkit-box-shadow: inset 0 0 0 5px $secondary-color !important;
 
     &:hover {
       background-color: #903835 !important;
