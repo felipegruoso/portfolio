@@ -1,3 +1,41 @@
 .portfolio-section {
+  .btn-red {
+    color: white;
+    background-color: $red;
+    border-color: $red;
 
+    &:hover {
+      background-color: $red-dark;
+      border-color: $red-dark;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem $red-transparent;
+    }
+  }
+
+  .job-col {
+    margin-bottom: 60px;
+
+    .job-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .job-img {
+      img {
+        width: 100%;
+        filter: contrast(70%);
+        transition: filter 300ms linear;
+
+        @media (max-width: 771px) {
+          margin-bottom: 40px;
+        }
+
+        &:hover {
+          filter: contrast(100%);
+        }
+      }
+    }
+  }
 }

@@ -1,4 +1,7 @@
 $mobile-break-point: 576px;
+$red: #903835;
+$red-dark: #772927;
+$red-transparent: #9038358c;
 
 @font-face {
   font-family: "Plume";
@@ -11,14 +14,14 @@ body {
   font-weight: 400;
 }
 
+.second-bg {
+  background-color: #f2eae4;
+}
+
 .full-section {
   background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
-}
-
-.second-bg {
-  background-color: #f2eae4;
 }
 
 .default-section {
@@ -52,80 +55,15 @@ h2 {
   font-family: 'Plume';
 }
 
-
 .text-red {
-  color: #903835;
+  color: $red;
 }
 
 .text-white {
   color: white;
 }
 
-.no-more-histories {
-  font-size: 3vw;
-  color: #18121a;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 40px;
-}
-
-.mt-lg {
-  margin-top: 90px;
-}
-
-/*ARROW*/
-.arrow{
-  position: fixed;
-  bottom: 50px;
-  right: 90px;
-  z-index: 1;
-  transform: translate(-50%,-50%);
-
-  @media (max-width: 950px) {
-    right: 50px;
-  }
-
-  @media (max-width: $mobile-break-point) {
-    right: 30px;
-  }
-}
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid #9038358c;
-    border-right: 5px solid #9038358c;
-    transform: rotate(45deg);
-    margin: -15px;
-    animation: animate 2s infinite;
-
-    @media (max-width: $mobile-break-point) {
-      width: 15px;
-      height: 15px;
-      margin: -5px;
-    }
-}
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
-}
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
-}
-@keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
-}
-/*ARROW*/
-
+@import 'arrow';
 @import 'home/style';
 @import 'about/style';
 @import 'skills/style';
