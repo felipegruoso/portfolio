@@ -11,32 +11,25 @@
     width: 130px;
     border-radius: 100%;
     color: $secondary-color;
-    // box-shadow: inset 0 0 0 1px #903835;
-    // -webkit-box-shadow: inset 0 0 0 1px #903835;
     transition: background-color 400ms, background-color 400ms;
     position: relative;
   }
 
   .normal-icon {
-    background-color: #9038358c !important;
+    background-color: $red-transparent !important;
     color: $secondary-color !important;
-    // box-shadow: inset 0 0 0 1px #9038358c !important;
-    // -webkit-box-shadow: inset 0 0 0 1px #9038358c !important;
-    // -webkit-box-shadow: inset 0 0 0 5px $secondary-color !important;
 
     &:hover {
-      background-color: #903835 !important;
+      background-color: $red !important;
     }
   }
 
   .github-icon {
     font-size: 150px !important;
-    color: #9038358c !important;
-    // box-shadow: inset 0 0 0 1px #90383520 !important;
-    // -webkit-box-shadow: inset 0 0 0 1px #90383520 !important;
+    color: $red-transparent !important;
 
     &:hover {
-      color: #903835 !important;
+      color: $red !important;
     }
   }
 }
