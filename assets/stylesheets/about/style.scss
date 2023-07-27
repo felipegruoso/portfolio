@@ -4,10 +4,16 @@
     margin-top: 40px;
   }
 
+  .about-image-container-all-margin-top {
+    @media (min-width: 992px) {
+      padding-top: 80px;
+    }
+  }
+
   .about-image-container {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #91897b;
+    border: 1px solid #e7e7e7;
     height: 240px;
     width: 350px;
     padding: 15px;
@@ -25,7 +31,7 @@
   .about-image {
     width: 100%;
     height: 100%;
-    border: 1px solid #91897b;
+    border: 1px solid #e7e7e7;
     filter: contrast(80%);
     transition: filter 300ms linear;
 

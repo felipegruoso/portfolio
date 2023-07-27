@@ -15,7 +15,7 @@
   }
 
   .job-col {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 
     .job-title {
       font-size: 24px;
@@ -36,6 +36,35 @@
           filter: contrast(100%);
         }
       }
+    }
+  }
+
+  #show-other-projects-checkbox {
+    display: none;
+    &:checked {
+      ~ label[for="show-other-projects-checkbox"] {
+        display: none;
+      }
+
+      ~ .other-projects {
+        opacity: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .other-projects {
+    opacity: 0;
+    height: 0;
+    transition: opacity 1s;
+  }
+
+  .google-play-link {
+    display: flex;
+
+    .google-play-img {
+      margin-left: -12px;
+      height: 80px;
     }
   }
 }
