@@ -5,9 +5,9 @@
     "parcel-bundler": "^1.11.0"
   },
   "scripts": {
-    "build": "rm -rf ../builds/portfolio && parcel build src/index.html --out-dir ../builds/portfolio/public && cp -R src/unity ../builds/portfolio/public",
+    "build": "rm -rf ../builds/portfolio && parcel build src/index.html --out-dir ../builds/portfolio/dist && cp -R src/unity ../builds/portfolio/dist && cp -R config ../builds/portfolio && cp Procfile ../builds/portfolio",
     "start": "parcel src/index.html",
-    "deploy": "cp static.json ../builds/portfolio && cd ../builds/portfolio && git init && ((git remote -v | grep heroku) || git remote add heroku https://git.heroku.com/felipegruoso.git) && git add . && (git commit -m \"Deploy\" || true) && git push heroku master --force"
+    "deploy": "cd ../builds/portfolio && git init && ((git remote -v | grep heroku) || git remote add heroku https://git.heroku.com/felipegruoso.git) && git add . && (git commit -m \"Deploy\" || true) && git push heroku master --force"
   },
   "name": "portfolio",
   "version": "1.0.0",
