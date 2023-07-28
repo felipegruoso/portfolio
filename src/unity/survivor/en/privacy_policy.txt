@@ -1,6 +1,6 @@
 Privacy Policy
 
-Effective Date: 2023-07-10
+Effective Date: 2023-07-28
 
 This Privacy Policy governs the manner in which we collect, use, maintain, and disclose personal data collected from users of our mobile game called "Sobrevivente". This Privacy Policy applies to the Game and all related services, features, and functionalities offered by us.
 
@@ -8,7 +8,7 @@ This Privacy Policy governs the manner in which we collect, use, maintain, and d
 
    1.1. Device ID: We may collect device identification information, such as the unique device identifier (UDID) or other device-specific information. This data helps us identify and authenticate your device for the purpose of providing a personalized experience within the Game.
 
-   1.2. Some Information: We collect additional information about your device, including, but not limited to, device model, operating system, device manufacturer, CPU architecture, memory information, storage information, battery level, connection type, locale and language settings, timezone, screen resolution, and app version. This information is collected by the monitoring tool Rollbar for error monitoring, performance improvements, and debugging purposes.
+   1.2. Some Information: We collect additional information about your device, including, but not limited to, device model, operating system, device manufacturer, CPU architecture, memory information, storage information, battery level, connection type, locale and language settings, timezone, screen resolution, and app version. This information is collected by Rollbarfor error monitoring, performance improvements, and debugging purposes.
 
    1.3. Location: We may collect location data to enhance your gaming experience, provide personalized content, and offer location-based features within the Game.
 
