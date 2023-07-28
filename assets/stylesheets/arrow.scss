@@ -4,6 +4,12 @@
   right: 90px;
   z-index: 1;
   transform: translate(-50%,-50%);
+  transition: opacity 1s;
+  opacity: 1;
+
+  &.transparent {
+    opacity: 0;
+  }
 
   @media (max-width: 950px) {
     right: 50px;
