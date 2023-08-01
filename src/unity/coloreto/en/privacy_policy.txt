@@ -1,0 +1,50 @@
+Privacy Policy
+
+Effective Date: 2023-08-01
+
+This Privacy Policy governs the manner in which we collect, use, maintain, and disclose personal data collected from users of our mobile game called "Coloreto". This Privacy Policy applies to the Game and all related services, features, and functionalities offered by us.
+
+1. Personal Data Collection
+
+   1.1. Device ID: We may collect device identification information, such as the unique device identifier (UDID) or other device-specific information. This data helps us identify and authenticate your device for the purpose of providing a personalized experience within the Game.
+
+   1.2. Some Information: We collect additional information about your device, including, but not limited to, device model, operating system, device manufacturer, CPU architecture, memory information, storage information, battery level, connection type, locale and language settings, timezone, screen resolution, and app version. This information is collected by Rollbar for error monitoring, performance improvements, and debugging purposes.
+
+   1.3. Location: We may collect location data to enhance your gaming experience, provide personalized content, and offer location-based features within the Game.
+
+2. Use of Personal Data
+
+   2.1. External Tools: We may share personal data, including the device ID and player name, with external tools and service providers to facilitate the functioning of the ranking feature, improve the Game, and provide a seamless gaming experience. These external tools may include analytics providers, hosting services, or other third-party service providers. We ensure that these external tools comply with relevant data protection laws.
+
+   2.2. Advertisements: Our Game may incorporate LevelPlay and UnityADS to display advertisements. We may collect certain personal data in accordance with its own privacy policy. We encourage you to review LevelPlay and Unity Technologies' privacy policy to understand how they handle your personal data.
+
+3. Data Retention and Security
+
+We retain the collected personal data for specific periods as outlined below:
+
+   3.1. Device ID and Location: The device ID and location data are retained for the duration of your gameplay session and are not stored beyond that timeframe. This data is solely used during your active session to provide a personalized gaming experience and for displaying relevant advertisements through LevelPlay.
+
+   3.2. Monitoring Tools Data: The additional device information, such as device model, operating system, device manufacturer, CPU architecture, memory information, storage information, battery level, connection type, locale and language settings, timezone, screen resolution, and app version, used by Rollbar, is collected for error monitoring, performance improvements, and debugging purposes. This data is securely transmitted to the respective monitoring tool providers and is handled in accordance with their own privacy policies. We ensure that these providers adhere to stringent data protection standards.
+
+We prioritize the security and confidentiality of your personal data. Access to collected data is restricted to authorized personnel only, and we have implemented industry-standard security measures to protect against unauthorized access, alteration, disclosure, or destruction of your personal information.
+
+
+4. Children's Privacy (COPPA Compliance)
+
+The Game is intended for use by individuals of all ages. As part of our commitment to protecting the privacy of children, we are fully compliant with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal data from children under the age of 13. If you are under the age of 13, please do not use the Game or provide any personal data. If you believe that we have inadvertently collected personal data from a child under 13, please contact us immediately, and we will take prompt steps to delete such data from our records.
+
+Parents or legal guardians of children under the age of 13 can review the personal data that we may have collected from their child, request the deletion of that data, and prevent further collection or use of their child's information by contacting us through the Apple Store or Google Play comments.
+
+By using the Game, you acknowledge that you are at least 13 years of age or that you are the parent or legal guardian of a child who is using the Game and consent to the collection, use, and processing of personal data in accordance with this Privacy Policy.
+
+5. Contact Us
+
+If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us through the Apple Store or Google Play comments.
+
+6. Changes to this Privacy Policy
+
+We reserve the right to update or modify this Privacy Policy at any time. We will notify you of any material changes by updating the "Effective Date" at the beginning of this policy. We encourage you to review this Privacy Policy periodically for any changes.
+
+By using the Game, you signify your acceptance of this Privacy Policy. If you do not agree with this Privacy Policy, please refrain from using the Game.
+
+End of Privacy Policy

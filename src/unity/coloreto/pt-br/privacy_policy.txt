@@ -12,15 +12,9 @@ Esta Política de Privacidade regula a forma como nós coletamos, utilizamos, ma
 
   1.3. Localização: Podemos coletar dados de localização para aprimorar sua experiência de jogo, fornecer conteúdo personalizado e oferecer recursos baseados em localização dentro do Jogo.
 
-  1.4. Nome do Jogador: Oferecemos aos jogadores a opção de fornecer seu nome como entrada de texto livre. O nome do jogador é usado exclusivamente para exibir seu nome escolhido dentro do Jogo e associá-lo ao seu perfil no sistema de classificação fornecido pela LootLocker.
-
 2. Uso dos Dados Pessoais
 
   2.1. Recurso de Classificação: Os dados pessoais, incluindo a identificação do dispositivo e o nome do jogador, são usados para criar e exibir classificações dentro do Jogo. Isso nos permite identificar e associar sua atividade de jogo ao seu perfil dentro do sistema de classificação fornecido pela LootLocker.
-
-  2.2. Personalização: Os dados pessoais coletados podem ser usados para personalizar sua experiência de jogo, como exibir seu nome escolhido dentro do Jogo.
-
-  2.3. Ferramentas Externas: Podemos compartilhar dados pessoais, incluindo a identificação do dispositivo e o nome do jogador, com ferramentas externas e provedores de serviços para facilitar o funcionamento do recurso de classificação, melhorar o Jogo e fornecer uma experiência de jogo contínua. Essas ferramentas externas podem incluir provedores de análise, serviços de hospedagem ou outros provedores de serviços de terceiros. Garantimos que essas ferramentas externas cumpram as leis relevantes de proteção de dados.
 
   2.4. Anuncios: Nosso Jogo pode incorporar o LevelPlay e UnityADS para exibir anuncios. Podemos coletar determinados dados pessoais de acordo com sua própria política de privacidade. Recomendamos que você revise a política de privacidade da LevelPlay e Unity Technologies para entender como eles lidam com seus dados pessoais.
 
@@ -30,15 +24,17 @@ Retemos os dados pessoais coletados por períodos específicos, conforme descrit
 
   3.1. Identificação do Dispositivo e Localização: A identificação do dispositivo e os dados de localização são retidos durante a sessão de jogo e não são armazenados além desse período. Esses dados são usados apenas durante sua sessão ativa para fornecer uma experiência de jogo personalizada e exibir anúncios relevantes por meio do LevelPlay.
 
-  3.2. Nome do Jogador: O nome do jogador, fornecido como entrada de texto livre, é armazenado com segurança em nosso banco de dados durante o jogo. Ele é usado exclusivamente para exibir seu nome escolhido dentro do Jogo e associá-lo ao seu perfil no sistema de classificação fornecido pela LootLocker. Não compartilhamos nem vendemos essas informações para terceiros.
-
-  3.3. Dados das Ferramentas de Monitoramento: As informações adicionais do dispositivo, como modelo do dispositivo, sistema operacional, fabricante do dispositivo, arquitetura da CPU, informações de memória, informações de armazenamento, nível de bateria, tipo de conexão, configurações de localidade e idioma, fuso horário, resolução da tela e versão do aplicativo, coletadas por ferramentas de monitoramento, usadas pelo Rollbar, são coletadas para monitoramento de erros, melhorias de desempenho e depuração. Esses dados são transmitidos com segurança para os respectivos provedores das ferramentas de monitoramento e são tratados de acordo com suas próprias políticas de privacidade. Garantimos que esses provedores sigam padrões rigorosos de proteção de dados.
+  3.2. Dados das Ferramentas de Monitoramento: As informações adicionais do dispositivo, como modelo do dispositivo, sistema operacional, fabricante do dispositivo, arquitetura da CPU, informações de memória, informações de armazenamento, nível de bateria, tipo de conexão, configurações de localidade e idioma, fuso horário, resolução da tela e versão do aplicativo, coletadas por ferramentas de monitoramento, usadas pelo Rollbar, são coletadas para monitoramento de erros, melhorias de desempenho e depuração. Esses dados são transmitidos com segurança para os respectivos provedores das ferramentas de monitoramento e são tratados de acordo com suas próprias políticas de privacidade. Garantimos que esses provedores sigam padrões rigorosos de proteção de dados.
 
 Priorizamos a segurança e confidencialidade de seus dados pessoais. O acesso aos dados coletados é restrito apenas a pessoal autorizado, e implementamos medidas de segurança padrão do setor para proteger contra acesso não autorizado, alteração, divulgação ou destruição de suas informações pessoais.
 
-4. Privacidade de Crianças
+4. Privacidade das crianças (conformidade com a COPPA)
 
-O Jogo não é destinado ao uso por indivíduos menores de 13 anos. Não coletamos intencionalmente dados pessoais de crianças menores de 13 anos. Se você acredita que inadvertidamente coletamos dados pessoais de uma criança menor de 13 anos, entre em contato conosco imediatamente.
+O Jogo é destinado ao uso por indivíduos de todas as idades. Como parte de nosso compromisso de proteger a privacidade das crianças, estamos em total conformidade com a Lei de Proteção à Privacidade Online das Crianças (COPPA). Não coletamos intencionalmente dados pessoais de crianças menores de 13 anos. Se você tiver menos de 13 anos, não use o Jogo nem forneça quaisquer dados pessoais. Se você acredita que coletamos inadvertidamente dados pessoais de uma criança menor de 13 anos, entre em contato conosco imediatamente e tomaremos medidas imediatas para excluir esses dados de nossos registros.
+
+Os pais ou tutores legais de crianças menores de 13 anos podem revisar os dados pessoais que coletamos de seus filhos, solicitar a exclusão desses dados e impedir a coleta ou uso adicional das informações de seus filhos entrando em contato conosco por meio da Apple Store ou Comentários do Google Play.
+
+Ao usar o Jogo, você reconhece que tem pelo menos 13 anos de idade ou que é o pai ou tutor legal de uma criança que está usando o Jogo e concorda com a coleta, uso e processamento de dados pessoais de acordo com este Política de Privacidade.
 
 5. Entre em Contato
 
