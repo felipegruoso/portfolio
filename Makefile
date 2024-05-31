@@ -1,1 +1,2 @@
-deploy: yarn deploy
+deploy:
+	yarn deploy
