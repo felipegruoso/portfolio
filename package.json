@@ -5,7 +5,8 @@
     "parcel-bundler": "^1.11.0"
   },
   "scripts": {
-    "build": "parcel build src/index.html"
+    "deploy": "sh ./scripts/deploy.sh",
+    "build": "parcel build src/index.html && cp -R src/unity dist/"
   },
   "name": "portfolio",
   "version": "1.0.0",
