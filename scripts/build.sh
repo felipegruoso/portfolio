@@ -8,5 +8,4 @@ parcel build src/index.html --out-dir ../builds/portfolio/dist
 mkdir -p ../builds/portfolio/dist/unity
 cp -R src/unity ../builds/portfolio/dist
 
-cp -R config ../builds/portfolio
-cp Procfile ../builds/portfolio
+cp -R static.json ../builds/portfolio
